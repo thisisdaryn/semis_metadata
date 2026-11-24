@@ -1,0 +1,1156 @@
+{
+  "trackedEntityTypes": [
+    {
+      "name": "EDU Staff",
+      "sharing": {
+        "public": "rw------"
+      },
+      "shortName": "EDU_STAFF",
+      "trackedEntityTypeAttributes": [
+        {
+          "name": "EDU Staff EDU - Family name",
+          "trackedEntityType": {
+            "id": "LXM2lSrdUmO"
+          },
+          "trackedEntityAttribute": {
+            "id": "l1AQAhoSafq"
+          },
+          "displayInList": false,
+          "mandatory": true,
+          "searchable": false,
+          "valueType": "TEXT",
+          "displayShortName": "EDU_STAFF Edu Family name",
+          "displayName": "EDU Staff EDU - Family name",
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "L29QtBkZG54"
+        },
+        {
+          "name": "EDU Staff EDU - Given name",
+          "trackedEntityType": {
+            "id": "LXM2lSrdUmO"
+          },
+          "trackedEntityAttribute": {
+            "id": "W1t5xkxZdWd"
+          },
+          "displayInList": false,
+          "mandatory": true,
+          "searchable": false,
+          "valueType": "TEXT",
+          "displayShortName": "EDU_STAFF Edu Given name",
+          "displayName": "EDU Staff EDU - Given name",
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "MFVD5f3EBh8"
+        },
+        {
+          "name": "EDU Staff EDU - Date of birth",
+          "trackedEntityType": {
+            "id": "LXM2lSrdUmO"
+          },
+          "trackedEntityAttribute": {
+            "id": "f1A5k45GaaE"
+          },
+          "displayInList": false,
+          "mandatory": true,
+          "searchable": false,
+          "valueType": "DATE",
+          "displayShortName": "EDU_STAFF EDU Date of birth",
+          "displayName": "EDU Staff EDU - Date of birth",
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "KU8WkQFvapd"
+        },
+        {
+          "name": "EDU Staff EDU - National ID",
+          "trackedEntityType": {
+            "id": "LXM2lSrdUmO"
+          },
+          "trackedEntityAttribute": {
+            "id": "v4qzgozB8cZ"
+          },
+          "displayInList": false,
+          "mandatory": true,
+          "searchable": false,
+          "valueType": "TEXT",
+          "displayShortName": "EDU_STAFF Edu National ID",
+          "displayName": "EDU Staff EDU - National ID",
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "JEn0pjUjAcR"
+        },
+        {
+          "name": "EDU Staff EDU - Contact phone number (local)",
+          "trackedEntityType": {
+            "id": "LXM2lSrdUmO"
+          },
+          "trackedEntityAttribute": {
+            "id": "evBsy88fjpX"
+          },
+          "displayInList": false,
+          "mandatory": false,
+          "searchable": false,
+          "valueType": "PHONE_NUMBER",
+          "displayShortName": "EDU_STAFF Edu Phone",
+          "displayName": "EDU Staff EDU - Contact phone number (local)",
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "Ldz6iB8Mz59"
+        },
+        {
+          "name": "EDU Staff EDU - Address (current)",
+          "trackedEntityType": {
+            "id": "LXM2lSrdUmO"
+          },
+          "trackedEntityAttribute": {
+            "id": "omMNldv0U7a"
+          },
+          "displayInList": false,
+          "mandatory": false,
+          "searchable": false,
+          "valueType": "LONG_TEXT",
+          "displayShortName": "EDU_STAFF Edu Address",
+          "displayName": "EDU Staff EDU - Address (current)",
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "frIBbLgDWVB"
+        }
+      ],
+      "featureType": "NONE",
+      "minAttributesRequiredToSearch": 1,
+      "maxTeiCountToReturn": 0,
+      "allowAuditLog": false,
+      "enableChangeLog": false,
+      "id": "LXM2lSrdUmO"
+    }
+  ],
+  "categoryCombos": [
+    {
+      "code": "default",
+      "name": "default",
+      "categories": [
+        {
+          "id": "GLevLNI9wkl"
+        }
+      ],
+      "dataDimensionType": "DISAGGREGATION",
+      "skipTotal": false,
+      "sharing": {
+        "public": "rw------"
+      },
+      "id": "bjDvmb4bfuf"
+    }
+  ],
+  "categories": [
+    {
+      "code": "default",
+      "name": "default",
+      "sharing": {
+        "public": "rw------"
+      },
+      "shortName": "default",
+      "dataDimensionType": "DISAGGREGATION",
+      "dataDimension": false,
+      "categoryOptions": [
+        {
+          "id": "xYerKDKCefk"
+        }
+      ],
+      "id": "GLevLNI9wkl"
+    }
+  ],
+  "categoryOptionCombos": [
+    {
+      "code": "default",
+      "name": "default",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "categoryOptions": [
+        {
+          "id": "xYerKDKCefk"
+        }
+      ],
+      "ignoreApproval": false,
+      "id": "HllvX50cXC0"
+    }
+  ],
+  "options": [
+    {
+      "code": "EDU_TRANSFER_APPROVED",
+      "name": "Approved",
+      "optionSet": {
+        "id": "ZXJOzmseXyg"
+      },
+      "sortOrder": 1,
+      "id": "lQRG2JS2aeP"
+    },
+    {
+      "code": "EDU_LATE",
+      "name": "Late",
+      "optionSet": {
+        "id": "Yo6QbSXfXY6"
+      },
+      "sortOrder": 1,
+      "id": "YPCPATx2pVI"
+    },
+    {
+      "code": "2025_2026",
+      "name": "2025-2026",
+      "optionSet": {
+        "id": "KrTipn4lh1d"
+      },
+      "sortOrder": 5,
+      "id": "nfbnfBFLKwH"
+    },
+    {
+      "code": "2022_2023",
+      "name": "2022-2023",
+      "optionSet": {
+        "id": "KrTipn4lh1d"
+      },
+      "sortOrder": 2,
+      "id": "wvH1rrtOsaU"
+    },
+    {
+      "code": "2023_2024",
+      "name": "2023-2024",
+      "optionSet": {
+        "id": "KrTipn4lh1d"
+      },
+      "sortOrder": 3,
+      "id": "NG5IFHxFfLA"
+    },
+    {
+      "code": "2026_2027",
+      "name": "2026-2027",
+      "optionSet": {
+        "id": "KrTipn4lh1d"
+      },
+      "sortOrder": 6,
+      "id": "SqYhnwOR495"
+    },
+    {
+      "code": "EDU_TRANSFER_DENIED",
+      "name": "Denied",
+      "optionSet": {
+        "id": "ZXJOzmseXyg"
+      },
+      "sortOrder": 2,
+      "id": "Zxx7w9GRnKp"
+    },
+    {
+      "code": "EDU_PRESENT",
+      "name": "Present",
+      "optionSet": {
+        "id": "Yo6QbSXfXY6"
+      },
+      "sortOrder": 0,
+      "id": "DNTINBy5dIl"
+    },
+    {
+      "code": "2021_2022",
+      "name": "2021-2022",
+      "optionSet": {
+        "id": "KrTipn4lh1d"
+      },
+      "sortOrder": 1,
+      "id": "vUn63Lr90Pm"
+    },
+    {
+      "code": "EDU_ABSENT",
+      "name": "Absent",
+      "optionSet": {
+        "id": "Yo6QbSXfXY6"
+      },
+      "sortOrder": 2,
+      "id": "W7uyjkSOIXl"
+    },
+    {
+      "code": "EDU_TRANSFER_PENDING",
+      "name": "Pending",
+      "optionSet": {
+        "id": "ZXJOzmseXyg"
+      },
+      "sortOrder": 0,
+      "id": "ws2AG5TZ3wP"
+    },
+    {
+      "code": "2024_2025",
+      "name": "2024-2025",
+      "optionSet": {
+        "id": "KrTipn4lh1d"
+      },
+      "sortOrder": 4,
+      "id": "fLgiuAl4m1j"
+    },
+    {
+      "code": "2020_2021",
+      "name": "2020-2021",
+      "optionSet": {
+        "id": "KrTipn4lh1d"
+      },
+      "sortOrder": 0,
+      "id": "az2Ra6ufbk0"
+    }
+  ],
+  "optionSets": [
+    {
+      "valueType": "TEXT",
+      "version": 4,
+      "name": "EDU Transfer statuses",
+      "options": [
+        {
+          "id": "ws2AG5TZ3wP"
+        },
+        {
+          "id": "lQRG2JS2aeP"
+        },
+        {
+          "id": "Zxx7w9GRnKp"
+        }
+      ],
+      "sharing": {
+        "public": "rw------"
+      },
+      "id": "ZXJOzmseXyg"
+    },
+    {
+      "valueType": "TEXT",
+      "version": 8,
+      "name": "EDU School Year",
+      "description": "A list of school years for countries where the school year crosses calendar years.",
+      "options": [
+        {
+          "id": "az2Ra6ufbk0"
+        },
+        {
+          "id": "vUn63Lr90Pm"
+        },
+        {
+          "id": "wvH1rrtOsaU"
+        },
+        {
+          "id": "NG5IFHxFfLA"
+        },
+        {
+          "id": "fLgiuAl4m1j"
+        },
+        {
+          "id": "nfbnfBFLKwH"
+        },
+        {
+          "id": "SqYhnwOR495"
+        }
+      ],
+      "sharing": {
+        "public": "rw------"
+      },
+      "id": "KrTipn4lh1d"
+    },
+    {
+      "valueType": "TEXT",
+      "version": 4,
+      "name": "EDU Attendance",
+      "options": [
+        {
+          "id": "DNTINBy5dIl"
+        },
+        {
+          "id": "YPCPATx2pVI"
+        },
+        {
+          "id": "W7uyjkSOIXl"
+        }
+      ],
+      "sharing": {
+        "public": "rw------"
+      },
+      "id": "Yo6QbSXfXY6"
+    }
+  ],
+  "categoryOptions": [
+    {
+      "code": "default",
+      "name": "default",
+      "shortName": "default",
+      "sharing": {
+        "public": "rwrw----"
+      },
+      "id": "xYerKDKCefk"
+    }
+  ],
+  "programs": [
+    {
+      "name": "EDU Staff",
+      "shortName": "EDU Staff",
+      "version": 0,
+      "programType": "WITH_REGISTRATION",
+      "displayIncidentDate": true,
+      "ignoreOverdueEvents": false,
+      "onlyEnrollOnce": true,
+      "selectEnrollmentDatesInFuture": false,
+      "selectIncidentDatesInFuture": false,
+      "trackedEntityType": {
+        "id": "LXM2lSrdUmO"
+      },
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "enrollmentCategoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "skipOffline": false,
+      "displayFrontPageList": false,
+      "useFirstStageDuringRegistration": false,
+      "expiryDays": 0,
+      "completeEventsExpiryDays": 0,
+      "openDaysAfterCoEndDate": 0,
+      "minAttributesRequiredToSearch": 1,
+      "maxTeiCountToReturn": 0,
+      "accessLevel": "OPEN",
+      "enableChangeLog": false,
+      "sharing": {
+        "public": "rw------"
+      },
+      "id": "oshvlRPmPQD",
+      "programStages": [
+        {
+          "id": "CKRFv85m1eG"
+        },
+        {
+          "id": "BZ11eKVXHuy"
+        },
+        {
+          "id": "WGplSawqrA2"
+        }
+      ],
+      "programTrackedEntityAttributes": [
+        {
+          "name": "EDU Staff EDU - Family name",
+          "program": {
+            "id": "oshvlRPmPQD"
+          },
+          "displayInList": false,
+          "sortOrder": 1,
+          "mandatory": true,
+          "allowFutureDate": false,
+          "renderOptionsAsRadio": false,
+          "renderType": {
+            "MOBILE": {
+              "type": "DEFAULT"
+            },
+            "DESKTOP": {
+              "type": "DEFAULT"
+            }
+          },
+          "searchable": false,
+          "valueType": "TEXT",
+          "displayShortName": "EDU Staff Edu Family name",
+          "displayName": "EDU Staff EDU - Family name",
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "sANcuG68rnb",
+          "trackedEntityAttribute": {
+            "id": "l1AQAhoSafq"
+          }
+        },
+        {
+          "name": "EDU Staff EDU - Given name",
+          "program": {
+            "id": "oshvlRPmPQD"
+          },
+          "displayInList": false,
+          "sortOrder": 2,
+          "mandatory": true,
+          "allowFutureDate": false,
+          "renderOptionsAsRadio": false,
+          "renderType": {
+            "MOBILE": {
+              "type": "DEFAULT"
+            },
+            "DESKTOP": {
+              "type": "DEFAULT"
+            }
+          },
+          "searchable": false,
+          "valueType": "TEXT",
+          "displayShortName": "EDU Staff Edu Given name",
+          "displayName": "EDU Staff EDU - Given name",
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "OZEfd2CGt4s",
+          "trackedEntityAttribute": {
+            "id": "W1t5xkxZdWd"
+          }
+        },
+        {
+          "name": "EDU Staff EDU - Date of birth",
+          "program": {
+            "id": "oshvlRPmPQD"
+          },
+          "displayInList": false,
+          "sortOrder": 3,
+          "mandatory": true,
+          "allowFutureDate": false,
+          "renderOptionsAsRadio": false,
+          "renderType": {
+            "MOBILE": {
+              "type": "DEFAULT"
+            },
+            "DESKTOP": {
+              "type": "DEFAULT"
+            }
+          },
+          "searchable": false,
+          "valueType": "DATE",
+          "displayShortName": "EDU Staff EDU Date of birth",
+          "displayName": "EDU Staff EDU - Date of birth",
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "AwkCuznp4q6",
+          "trackedEntityAttribute": {
+            "id": "f1A5k45GaaE"
+          }
+        },
+        {
+          "name": "EDU Staff EDU - National ID",
+          "program": {
+            "id": "oshvlRPmPQD"
+          },
+          "displayInList": false,
+          "sortOrder": 5,
+          "mandatory": true,
+          "allowFutureDate": false,
+          "renderOptionsAsRadio": false,
+          "renderType": {
+            "MOBILE": {
+              "type": "DEFAULT"
+            },
+            "DESKTOP": {
+              "type": "DEFAULT"
+            }
+          },
+          "searchable": false,
+          "valueType": "TEXT",
+          "displayShortName": "EDU Staff Edu National ID",
+          "displayName": "EDU Staff EDU - National ID",
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "IWAKOQ3hJaf",
+          "trackedEntityAttribute": {
+            "id": "v4qzgozB8cZ"
+          }
+        },
+        {
+          "name": "EDU Staff EDU - Contact phone number (local)",
+          "program": {
+            "id": "oshvlRPmPQD"
+          },
+          "displayInList": false,
+          "sortOrder": 6,
+          "mandatory": false,
+          "allowFutureDate": false,
+          "renderOptionsAsRadio": false,
+          "renderType": {
+            "MOBILE": {
+              "type": "DEFAULT"
+            },
+            "DESKTOP": {
+              "type": "DEFAULT"
+            }
+          },
+          "searchable": false,
+          "valueType": "PHONE_NUMBER",
+          "displayShortName": "EDU Staff Edu Phone",
+          "displayName": "EDU Staff EDU - Contact phone number (local)",
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "L0xKFhCBkIn",
+          "trackedEntityAttribute": {
+            "id": "evBsy88fjpX"
+          }
+        },
+        {
+          "name": "EDU Staff EDU - Address (current)",
+          "program": {
+            "id": "oshvlRPmPQD"
+          },
+          "displayInList": false,
+          "sortOrder": 7,
+          "mandatory": false,
+          "allowFutureDate": false,
+          "renderOptionsAsRadio": false,
+          "renderType": {
+            "MOBILE": {
+              "type": "DEFAULT"
+            },
+            "DESKTOP": {
+              "type": "DEFAULT"
+            }
+          },
+          "searchable": false,
+          "valueType": "LONG_TEXT",
+          "displayShortName": "EDU Staff Edu Address",
+          "displayName": "EDU Staff EDU - Address (current)",
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "vkI4gfDof0k",
+          "trackedEntityAttribute": {
+            "id": "omMNldv0U7a"
+          }
+        }
+      ]
+    }
+  ],
+  "dataElements": [
+    {
+      "name": "EDU Transfer origin school",
+      "sharing": {
+        "public": "rw------"
+      },
+      "shortName": "EDU Transfer origin school",
+      "formName": "Origin school",
+      "aggregationType": "NONE",
+      "valueType": "ORGANISATION_UNIT",
+      "domainType": "TRACKER",
+      "zeroIsSignificant": false,
+      "id": "CTAAlC5ZeVl",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "code": "EDU_DAILY_ATTENDANCE",
+      "name": "EDU Daily attendance",
+      "sharing": {
+        "public": "rw------"
+      },
+      "shortName": "EDU Daily attendance",
+      "aggregationType": "NONE",
+      "valueType": "TEXT",
+      "domainType": "TRACKER",
+      "zeroIsSignificant": false,
+      "optionSet": {
+        "id": "Yo6QbSXfXY6"
+      },
+      "id": "JfDMKze8PLx",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "EDU Transfer destination school",
+      "sharing": {
+        "public": "rw------"
+      },
+      "shortName": "EDU Transfer destination school",
+      "formName": "Destination school",
+      "aggregationType": "NONE",
+      "valueType": "ORGANISATION_UNIT",
+      "domainType": "TRACKER",
+      "zeroIsSignificant": false,
+      "id": "oTXUrRuC1uu",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "EDU Academic year",
+      "sharing": {
+        "public": "rw------"
+      },
+      "shortName": "EDU Academic year",
+      "formName": "Academic year",
+      "aggregationType": "NONE",
+      "valueType": "TEXT",
+      "domainType": "TRACKER",
+      "zeroIsSignificant": false,
+      "optionSet": {
+        "id": "KrTipn4lh1d"
+      },
+      "id": "dVpXTfpeqHV",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    },
+    {
+      "name": "EDU Transfer status",
+      "sharing": {
+        "public": "rw------"
+      },
+      "shortName": "EDU Transfer status",
+      "formName": "Transfer status",
+      "aggregationType": "NONE",
+      "valueType": "TEXT",
+      "domainType": "TRACKER",
+      "zeroIsSignificant": false,
+      "optionSet": {
+        "id": "ZXJOzmseXyg"
+      },
+      "id": "ixV1ibC0iwL",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      }
+    }
+  ],
+  "trackedEntityAttributes": [
+    {
+      "code": "EDU_NATIONAL_ID",
+      "name": "EDU - National ID",
+      "sharing": {
+        "public": "rw------"
+      },
+      "shortName": "Edu National ID",
+      "formName": "National ID",
+      "aggregationType": "NONE",
+      "valueType": "TEXT",
+      "inherit": false,
+      "displayOnVisitSchedule": false,
+      "displayInListNoProgram": false,
+      "confidential": false,
+      "unique": true,
+      "generated": false,
+      "pattern": "",
+      "orgunitScope": false,
+      "skipSynchronization": false,
+      "minCharactersToSearch": 0,
+      "trigramIndexable": false,
+      "skipAnalytics": false,
+      "id": "v4qzgozB8cZ"
+    },
+    {
+      "code": "EDU_FAMILY_NAME",
+      "name": "EDU - Family name",
+      "sharing": {
+        "public": "rw------"
+      },
+      "shortName": "Edu Family name",
+      "formName": "Family name",
+      "aggregationType": "NONE",
+      "valueType": "TEXT",
+      "inherit": false,
+      "displayOnVisitSchedule": false,
+      "displayInListNoProgram": false,
+      "confidential": false,
+      "unique": false,
+      "generated": false,
+      "pattern": "",
+      "orgunitScope": false,
+      "skipSynchronization": false,
+      "minCharactersToSearch": 0,
+      "trigramIndexable": false,
+      "skipAnalytics": false,
+      "id": "l1AQAhoSafq"
+    },
+    {
+      "code": "EDU_ADDRESS_CURR",
+      "name": "EDU - Address (current)",
+      "sharing": {
+        "public": "rw------"
+      },
+      "shortName": "Edu Address",
+      "formName": "Current address",
+      "aggregationType": "NONE",
+      "valueType": "LONG_TEXT",
+      "inherit": false,
+      "displayOnVisitSchedule": false,
+      "displayInListNoProgram": false,
+      "confidential": false,
+      "unique": false,
+      "generated": false,
+      "pattern": "",
+      "orgunitScope": false,
+      "skipSynchronization": false,
+      "minCharactersToSearch": 0,
+      "trigramIndexable": false,
+      "skipAnalytics": false,
+      "id": "omMNldv0U7a"
+    },
+    {
+      "code": "EDU_INFO_DOB",
+      "name": "EDU - Date of birth",
+      "sharing": {
+        "public": "rw------"
+      },
+      "shortName": "EDU Date of birth",
+      "formName": "Date of Birth",
+      "aggregationType": "NONE",
+      "valueType": "DATE",
+      "inherit": false,
+      "displayOnVisitSchedule": false,
+      "displayInListNoProgram": false,
+      "confidential": false,
+      "unique": false,
+      "generated": false,
+      "pattern": "",
+      "orgunitScope": false,
+      "skipSynchronization": false,
+      "minCharactersToSearch": 0,
+      "trigramIndexable": false,
+      "skipAnalytics": false,
+      "id": "f1A5k45GaaE"
+    },
+    {
+      "code": "EDU_GIVEN_NAME",
+      "name": "EDU - Given name",
+      "sharing": {
+        "public": "rw------"
+      },
+      "shortName": "Edu Given name",
+      "formName": "First Name",
+      "aggregationType": "NONE",
+      "valueType": "TEXT",
+      "inherit": false,
+      "displayOnVisitSchedule": false,
+      "displayInListNoProgram": false,
+      "confidential": false,
+      "unique": false,
+      "generated": false,
+      "pattern": "",
+      "orgunitScope": false,
+      "skipSynchronization": false,
+      "minCharactersToSearch": 0,
+      "trigramIndexable": false,
+      "skipAnalytics": false,
+      "id": "W1t5xkxZdWd"
+    },
+    {
+      "code": "EDU_PHONE_LOCAL",
+      "name": "EDU - Contact phone number (local)",
+      "sharing": {
+        "public": "rw------"
+      },
+      "shortName": "Edu Phone",
+      "description": "Local mobile phone or landline number to contact the student/staff member.",
+      "formName": "Contact phone number (local)",
+      "aggregationType": "NONE",
+      "valueType": "PHONE_NUMBER",
+      "inherit": false,
+      "displayOnVisitSchedule": false,
+      "displayInListNoProgram": false,
+      "confidential": false,
+      "unique": false,
+      "generated": false,
+      "pattern": "",
+      "orgunitScope": false,
+      "skipSynchronization": false,
+      "minCharactersToSearch": 0,
+      "trigramIndexable": false,
+      "skipAnalytics": false,
+      "id": "evBsy88fjpX"
+    }
+  ],
+  "programStages": [
+    {
+      "name": "EDU Staff Registration",
+      "sharing": {
+        "public": "rw------"
+      },
+      "minDaysFromStart": 0,
+      "program": {
+        "id": "oshvlRPmPQD"
+      },
+      "programStageDataElements": [
+        {
+          "programStage": {
+            "id": "BZ11eKVXHuy"
+          },
+          "dataElement": {
+            "id": "dVpXTfpeqHV"
+          },
+          "compulsory": false,
+          "allowProvidedElsewhere": false,
+          "displayInReports": false,
+          "allowFutureDate": false,
+          "renderOptionsAsRadio": false,
+          "renderType": {
+            "MOBILE": {
+              "type": "DEFAULT"
+            },
+            "DESKTOP": {
+              "type": "DEFAULT"
+            }
+          },
+          "skipSynchronization": false,
+          "skipAnalytics": false,
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "pzINzREUNiS"
+        }
+      ],
+      "autoGenerateEvent": true,
+      "validationStrategy": "ON_COMPLETE",
+      "displayGenerateEventBox": true,
+      "blockEntryForm": false,
+      "preGenerateUID": false,
+      "remindCompleted": false,
+      "generatedByEnrollmentDate": false,
+      "allowGenerateNextVisit": false,
+      "openAfterEnrollment": false,
+      "hideDueDate": false,
+      "enableUserAssignment": false,
+      "referral": false,
+      "id": "BZ11eKVXHuy",
+      "repeatable": false
+    },
+    {
+      "name": "EDU Staff Transfer",
+      "sharing": {
+        "public": "rw------"
+      },
+      "minDaysFromStart": 0,
+      "program": {
+        "id": "oshvlRPmPQD"
+      },
+      "programStageDataElements": [
+        {
+          "programStage": {
+            "id": "CKRFv85m1eG"
+          },
+          "dataElement": {
+            "id": "ixV1ibC0iwL"
+          },
+          "compulsory": false,
+          "allowProvidedElsewhere": false,
+          "displayInReports": false,
+          "allowFutureDate": false,
+          "renderOptionsAsRadio": false,
+          "renderType": {
+            "MOBILE": {
+              "type": "DEFAULT"
+            },
+            "DESKTOP": {
+              "type": "DEFAULT"
+            }
+          },
+          "skipSynchronization": false,
+          "skipAnalytics": false,
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "V3nbZyd6O9e"
+        },
+        {
+          "programStage": {
+            "id": "CKRFv85m1eG"
+          },
+          "dataElement": {
+            "id": "CTAAlC5ZeVl"
+          },
+          "compulsory": false,
+          "allowProvidedElsewhere": false,
+          "displayInReports": false,
+          "allowFutureDate": false,
+          "renderOptionsAsRadio": false,
+          "renderType": {
+            "MOBILE": {
+              "type": "DEFAULT"
+            },
+            "DESKTOP": {
+              "type": "DEFAULT"
+            }
+          },
+          "skipSynchronization": false,
+          "skipAnalytics": false,
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "phWxD4Mrnbi"
+        },
+        {
+          "programStage": {
+            "id": "CKRFv85m1eG"
+          },
+          "dataElement": {
+            "id": "oTXUrRuC1uu"
+          },
+          "compulsory": false,
+          "allowProvidedElsewhere": false,
+          "displayInReports": false,
+          "allowFutureDate": false,
+          "renderOptionsAsRadio": false,
+          "renderType": {
+            "MOBILE": {
+              "type": "DEFAULT"
+            },
+            "DESKTOP": {
+              "type": "DEFAULT"
+            }
+          },
+          "skipSynchronization": false,
+          "skipAnalytics": false,
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "lyBdXSnu9iA"
+        }
+      ],
+      "autoGenerateEvent": true,
+      "validationStrategy": "ON_COMPLETE",
+      "displayGenerateEventBox": true,
+      "blockEntryForm": false,
+      "preGenerateUID": false,
+      "remindCompleted": false,
+      "generatedByEnrollmentDate": false,
+      "allowGenerateNextVisit": false,
+      "openAfterEnrollment": false,
+      "hideDueDate": false,
+      "enableUserAssignment": false,
+      "referral": false,
+      "id": "CKRFv85m1eG",
+      "repeatable": false
+    },
+    {
+      "name": "EDU Staff Attendance",
+      "sharing": {
+        "public": "rw------"
+      },
+      "minDaysFromStart": 0,
+      "program": {
+        "id": "oshvlRPmPQD"
+      },
+      "programStageDataElements": [
+        {
+          "programStage": {
+            "id": "WGplSawqrA2"
+          },
+          "dataElement": {
+            "id": "JfDMKze8PLx"
+          },
+          "compulsory": false,
+          "allowProvidedElsewhere": false,
+          "displayInReports": false,
+          "allowFutureDate": false,
+          "renderOptionsAsRadio": false,
+          "renderType": {
+            "MOBILE": {
+              "type": "DEFAULT"
+            },
+            "DESKTOP": {
+              "type": "DEFAULT"
+            }
+          },
+          "skipSynchronization": false,
+          "skipAnalytics": false,
+          "access": {
+            "manage": true,
+            "write": true,
+            "read": true,
+            "update": true,
+            "delete": true
+          },
+          "favorite": false,
+          "id": "dnfSA4LaS6Y"
+        }
+      ],
+      "autoGenerateEvent": true,
+      "validationStrategy": "ON_COMPLETE",
+      "displayGenerateEventBox": true,
+      "blockEntryForm": false,
+      "preGenerateUID": false,
+      "remindCompleted": false,
+      "generatedByEnrollmentDate": false,
+      "allowGenerateNextVisit": false,
+      "openAfterEnrollment": false,
+      "hideDueDate": false,
+      "enableUserAssignment": false,
+      "referral": false,
+      "id": "WGplSawqrA2",
+      "repeatable": false
+    }
+  ]
+}
